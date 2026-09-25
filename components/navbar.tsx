@@ -4,10 +4,10 @@ import { useState, useEffect } from 'react';
 import { X, ChevronRight, Menu } from 'lucide-react';
 
 const navLinks = [
-  { label: 'Explore', href: '#' },
+  { label: 'Explore', href: '/' },
   { label: 'Video', href: '#', pill: { text: 'New', color: 'volt' } },
   { label: '3D Models', href: '/3d-models' },
-  { label: 'Live Studio', href: '#', pill: { text: 'No-OBS', color: 'gray' } },
+  { label: 'Live Studio', href: '/studio', pill: { text: 'No-OBS', color: 'gray' } },
 ];
 
 export default function Navbar() {
